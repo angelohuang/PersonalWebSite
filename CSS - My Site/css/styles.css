@@ -1,0 +1,117 @@
+body{
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1{
+  margin: 50px auto 0 auto;
+  font-size: 5.265rem;
+  font-family: 'Sacramento', cursive;
+  color : #66BFBF;
+}
+
+h2{
+  font-family: 'Montserrat', sans-serif;
+  color : #66BFBF;
+  font-weight: normal;
+}
+
+h3{
+  font-family: 'Montserrat', sans-serif;
+  color:#11999E;
+}
+
+a{
+  color:#11999E;
+}
+
+hr{
+  border: dotted #EAF6F6 6px;
+  border-bottom: 0;
+  width : 40px;
+}
+
+
+/**********************************Class Selector*************************/
+.top-container{
+  background-color: #E4F9F5;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container{
+}
+
+.bottom-container{
+  margin: 20px auto;
+  background-color: #66BFBF;
+  padding:20px 0;
+}
+
+.top-cloud{
+  position: absolute;
+  right:300px;
+  top: 50px;
+}
+
+.botton-cloud{
+  position: absolute;
+  left:300px;
+  bottom:300px;
+}
+
+.perfil{
+  margin-top: 20px;
+  width: 10%;
+  border-radius: 60px;
+}
+
+.skill-row{
+  width: 50%;
+  margin:100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.skill-image1{
+  width: 15%;
+  //float:left;
+  padding-right: 30px;
+}
+
+.skill-image2{
+  width :15%;
+  float:right;
+  padding-left: 30px;
+}
+
+.get-in-touch{
+  margin: 40px auto;
+  width:30%;
+}
+
+.BUTTON_OES {
+   -webkit-border-radius: 9px;
+   -moz-border-radius: 9px;
+   border-radius: 9px;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-size: 17px;
+   font-weight: 100;
+   padding: 0;
+   background-color: #1CC1C1;
+   border: solid #1CC1C1 9px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+   margin-bottom: 40px;
+}
+.autor{
+  color:#EAF6F6;
+}
+.footer-link{
+  color:#11999E;
+  padding-left: 30px;
+}
